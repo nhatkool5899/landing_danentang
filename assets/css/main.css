@@ -6,6 +6,13 @@
     background: #1f2641;
 } */
 
+.about-title{
+    position: relative;
+    top: -30px;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
 .about-body{
     height: 520px;
 }
@@ -20,6 +27,12 @@
 
 .about-header{
 
+}
+
+.about-title .icon{
+    width: 50px;
+    position: relative;
+    top: -6px;
 }
 
 .about-header h4{
@@ -45,7 +58,7 @@
     margin: 20px 0;
     font-size: 30px;
     line-height: 1.6;
-    background: -webkit-linear-gradient(45deg, #6c44ee, #b63df7 80%);
+    background: -webkit-linear-gradient(45deg, #42d9d1, #4e8dff 80%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -61,7 +74,7 @@
 }
 
 .about-list li span{
-    color: #b63df7;
+    color: #fff;
     font-size: 20px;
 }
 
@@ -181,22 +194,25 @@
     position: absolute;
     width: 48px;
     height: 48px;
+
 }
 .top-seller-content .title-style{
     margin-left: 60px;
-    font-size: 16px;
+    font-size: 15px;
     text-transform: uppercase;
+    line-height: 22px;
 }
 .top-seller-content .desc{
     text-align: justify;
     padding-top: 10px;
     color: #f2f2f2;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .top-seller-item-style{
     background: #2b767d;
-    height: 250px;
+    min-height: 240px;
+    border-radius: 2px;
 }
 
 .style-icon{
@@ -233,4 +249,20 @@
 
 .show-title-mobile{
     display: none;
+}
+
+.title-bancovan{
+    text-transform: uppercase;
+    color: #E039FD;
+    font-size: 14px;
+    font-weight: 600;
+}
+.top-seller-content .text-bancovan{
+    margin-bottom: 0;
+    font-weight: 400;
+}
+.top-seller-content .text-bancovan:last-child{
+    font-weight: 700;
+    color: #fff;
+    padding-top: 6px;
 }
